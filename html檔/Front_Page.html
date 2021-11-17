@@ -8,20 +8,24 @@
     <link rel="shortcut icon" href="..\遊戲圖檔\favicon.ico">
     <meta name="description" content="專屬於你 ,自由之翼 ,心理測驗 "/>
     <link rel="stylesheet" type="text/css" href="style_origin.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
     <script src="js/all.js"></script>
+    <script src="jS/jquery-3.3.1.min.js"></script>
 </head>
-<body>
+<body class="intro">
 
-    <div id="title"><h1>你的自由之翼</h1></div>
+    <div style=" visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+        <div id="title"><h1>你的自由之翼</h1></div>
 
-    <div id="des">
-    <h2>讓我們一起找出屬於自己的野性</h2>
-    <h2>測驗自己是哪種鳥類 x 找出專屬於你的特性</h2>
+        <div id="des">
+        <h2>讓我們一起找出屬於自己的野性</h2>
+        <h2>測驗自己是哪種鳥類 x 找出專屬於你的特性</h2>
+        </div>
+        <!--標題須以css做修改，大小、顏色及位置-->
+
+        <div id="pic"><img src="..\遊戲圖檔\flat-bird-vectors.jpg" alt="期待你來揭開面紗" style="max-width:48%;height:auto;"></div>
+
+        <div id="bt"><button type="button" onclick="goToURL('Q1.html')">開始測驗</button></div>
     </div>
-    <!--標題須以css做修改，大小、顏色及位置-->
-
-    <div id="pic"><img src="..\遊戲圖檔\flat-bird-vectors.jpg" alt="期待你來揭開面紗" style="max-width:48%;height:auto;"></div>
-
-    <div id="bt"><button type="button" onclick="goToURL('Q1.html')">開始測驗</button></div>
 </body>
 </html>
