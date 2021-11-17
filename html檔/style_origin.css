@@ -38,23 +38,19 @@ button:hover {
     background-color: rgb(231, 228, 133);
     color: rgb(255, 255, 255);
   }
-
 .align-center{
   width: 800px;
   position: absolute;
   top: 50vh;
   transform: translateY(-50%);
 }
-
 #pic{
   width: 800px;
 }
-
 .icon{
-  max-width:100%;
+  max-width:192px;
   height: 192px;
 }
-
 .intro{
     padding: 0;
     height: 100vh;
@@ -62,3 +58,6 @@ button:hover {
     background-image: url(../遊戲圖檔/img_background.png);
     background-size: cover;
   }
+.endText{
+  padding: 10px;
+}
