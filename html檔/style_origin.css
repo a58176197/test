@@ -1,0 +1,42 @@
+h1,h2{
+    color: rgb(49, 49, 49);
+    margin: 0;
+    padding: 20px 0;
+  }
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+  }
+#bt{
+  display:flex;
+  justify-content:center;
+  position:relative;
+  top:40px;
+  align-items:center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+  }
+button{
+    width:130px;
+    height:50px;
+    margin: 0 auto;
+    background-color: #ffffffab;
+    color: rgb(82, 82, 82);
+    font-size: 22px;
+    padding: 8px;
+    border-radius: 5spx;
+    width:auto;
+    float:left;
+    transition-duration: 0.4s;
+  }
+button:hover {
+    background-color: rgb(231, 228, 133);
+    color: rgb(255, 255, 255);
+  }
+  title{
+
+  }
