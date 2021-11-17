@@ -51,13 +51,13 @@ function goToEnd()
         case '行動好奇團隊':
             document.location.href='鴕鳥.html'
             break
-        case '步調忠誠團隊':
+        case '步調好奇團隊':
             document.location.href='鴿子.html'
             break
         case '步調忠誠個人':
             document.location.href='朱紅霸鶲.html'
             break
-        case '步調好奇團隊':
+        case '步調忠誠團隊':
             document.location.href='卷羽鵜鶘.html'
             break
         case '步調好奇個人':

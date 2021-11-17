@@ -14,19 +14,27 @@
 </head>
 <body class="intro">
 
-    <div style=" visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+    <div class="align-center">
 
-        <div id="des">
-            <form action="javascript:goToEnd()">
-                <h1>來到最後一步了，請輸入你的名字：</h1>
-                <input type="text" name="testerName">
-                <input type="submit">
-            </form>
+        <div style=" visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+
+            <div id="des">
+                <form action="javascript:goToEnd()">
+                    <h1>來到最後一步了，請輸入你的名字：</h1>
+                    <div style="display: flex; justify-content: center;">
+                        <div>
+                            <input type="text" name="testerName">
+                            <input type="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div id="pic"><img src="..\遊戲圖檔\secret.jpg" alt="產出測驗結果" style="max-width:48%;height:auto;"></div>
+
         </div>
 
-        <div id="pic"><img src="..\遊戲圖檔\secret.jpg" alt="產出測驗結果" style="max-width:48%;height:auto;"></div>
-
     </div>
-    
+
 </body>
 </html>

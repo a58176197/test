@@ -2,6 +2,7 @@ h1,h2{
     color: rgb(49, 49, 49);
     margin: 0;
     padding: 20px 0;
+    text-align: center;
   }
 body {
     width: 800px;
@@ -38,7 +39,25 @@ button:hover {
     color: rgb(255, 255, 255);
   }
 
+.align-center{
+  width: 800px;
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+#pic{
+  width: 800px;
+}
+
+.icon{
+  max-width:100%;
+  height: 192px;
+}
+
 .intro{
+    padding: 0;
+    height: 100vh;
     background-color:#FFF7E8;
     background-image: url(../遊戲圖檔/img_background.png);
     background-size: cover;
