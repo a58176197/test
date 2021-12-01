@@ -29,14 +29,14 @@ button{
     color: rgb(82, 82, 82);
     font-size: 22px;
     padding: 8px;
-    border-radius: 12spx;
+    border-radius: 12px;
     width:auto;
     float:left;
     transition-duration: 0.4s;
   }
 button:hover {
-    background-color: #ffffffab;
-    color: rgb(255, 255, 255);
+    background-color: #e7e7e7;
+    color: rgb(82, 82, 82);
   }
 .align-center{
   width: 800px;
